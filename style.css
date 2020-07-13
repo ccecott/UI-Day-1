@@ -1,16 +1,82 @@
-.main {
+ body {
+    background-image: url(./assets/mike-kenneally-tNALoIZhqVM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+} 
+
+.main {
+display: flex;
+align-items: center;
+width: 80%;
 }
+
+.welcome {
+    flex: 1;
+}
+
+h1 {
+    color: white;
+}
+
+
 
 .form-holder {
     width: 50%;
-    
+    padding: 40px;
+    border: 1px solid black;
+    background-color: white;
+    flex: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+label {
+    padding-top: 10px;
+    /* padding-left: 50px; */
+    align-self: flex-start;
+}
+
+.moving {
+    padding-left: 55px;
+}
+
+input {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 80%;
+}
+
+#zipcode {
+    width: fit-content;
+}
+
+.state {
+    align-self: center;
+}
+
+.zipcode {
+   align-self: center;
+}
+
+select {
+    width: fit-content;
+    padding: 5px;
+}
+
+.btn {
+    align-self: center;
+    margin-top: 5px;
+    width: fit-content;
+    padding: 5px;
 }
